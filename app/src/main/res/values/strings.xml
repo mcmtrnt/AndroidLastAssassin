@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">LastAssassinV1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_game">createGame</string>
+    <string-array name="game_modes_array">
+        <item>Classic</item>
+<!--TODO:        <item>Honor</item>-->
+<!--        <item>Manual</item>-->
+<!--        <item>Auto</item>-->
+    </string-array>
+    <string name="tutorial_text">Welcome to Last Assassin\n\n
+        Last Assassin facilitates the ultimate game of hide and seek tag.
+        Get a group of friends and family together and play a game.\n\n
+
+        At the beginning of the game everyone is assigned a target and given directions to
+        their targets location.
+        Your goal is to tag your target. When you tag someone, they join your team and the person
+        they were chasing is your new target. The last player left is the winner.\n\n
+
+        When you start a game, a timer starts a countdown. This is your chance to run and hide!
+        Once the countdown finishes, the game begins and you can start chasing your target. \n\n
+        To get your target out you can tag them, nerf gun them, water gun them, etc. Just make
+        sure everyone is on the same page.\n\n
+
+        This is a location-based game, and we will need to access your location data.
+        Please keep your phone on while playing the game, and
+        dont close out of the app - or you may be kicked out of the game. Also, please discuss
+        the physical boundaries of the game with all players before beginning the game.\n\n
+
+        We hope you enjoy Last Assassin!
+    </string>
+    <string name="last">LAST</string>
+    <string name="assassin">ASSASSIN</string>
+    <string name="startGame">Start Game</string>
+    <string name="gameCode">Game Code</string>
+    <string name="dots">...</string>
+    <string name="players">PLAYERS</string>
+    <string name="createGame">Create Game</string>
+    <string name="joinGame">Join Game</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="lastAssassinLogo">Last Assassin Logo</string>
+    <string name="enterName">Enter Your Name</string>
+    <string name="create">CREATE</string>
+    <string name="enterGameCode">Enter Game Code</string>
+    <string name="joinLobby">JOIN LOBBY</string>
+    <string name="mainMenu">MAIN MENU</string>
+    <string name="save">SAVE</string>
+    <string name="gameMode">Game Mode:</string>
+    <string name="settings">Settings</string>
+    <string name="delay">Delay:</string>
+    <string name="compass">Compass</string>
+    <string name="assassinateTarget">TAG TARGET</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="gameOver">GAME OVER</string>
+    <string name="winner">WINNER</string>
+    <string name="remaining">REMAINING</string>
+    <string name="continueGame">CONTINUE</string>
+    <string name="youHaveBeen">YOU HAVE BEEN</string>
+    <string name="assassinated">TAGGED</string>
+    <string name="warning">WARNING</string>
+    <string name="warningText">Exercise caution and follow all laws while playing this game.\n\n
+        Be alert and pay attention to your surroundings\n\n
+        Do not tresspass. Do not enter dangerous areas. Do not play while driving.
+        Do not look at your phone while running.\n\nLast assassin is not responsible
+        for any accidents, injuries, harm, or other damages caused as a direct or indirect
+        result of this game.\n\n
+    </string>
+    <string name="findGroup">FIND GROUP</string>
+</resources>
+
+

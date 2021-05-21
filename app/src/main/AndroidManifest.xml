@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lastassassin.lastassassinv1">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.lastassassin.lastassassinv1.homeLocation" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.lastassassin.lastassassinv1.warning"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.lastassassin.lastassassinv1.verify"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.lastassassin.lastassassinv1.settingsView"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.lastassassin.lastassassinv1.tutorial"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.lastassassin.lastassassinv1.game_over" android:screenOrientation="portrait"/>
+        <activity android:name="com.lastassassin.lastassassinv1.you_died" android:screenOrientation="portrait"/>
+        <activity android:name="com.lastassassin.lastassassinv1.host_lobby" android:screenOrientation="portrait"/>
+        <activity android:name="com.lastassassin.lastassassinv1.join_game" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.lastassassin.lastassassinv1.createGame"
+            android:label="@string/title_activity_create_game"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.lastassassin.lastassassinv1.game_play" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.lastassassin.lastassassinv1.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+<!--        Test app id: ca-app-pub-3940256099942544~3347511713-->
+<!--        Prod id:ca-app-pub-5867008590692939~4115748876-->
+    </application>
+
+</manifest>

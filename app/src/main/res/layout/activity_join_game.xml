@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:screenOrientation="portrait"
+    tools:context=".join_game">
+
+    <EditText
+        android:id="@+id/editGameCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhiteSmoke"
+        android:ems="10"
+        android:fontFamily="@font/syncopate"
+        android:hint="@string/enterGameCode"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/colorRed"
+        app:layout_constraintEnd_toEndOf="@+id/editPlayerName"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/editPlayerName"
+        app:layout_constraintTop_toBottomOf="@+id/editPlayerName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/syncopate"
+        android:text="@string/last"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhiteSmoke"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/syncopate"
+        android:text="@string/assassin"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhiteSmoke"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/editPlayerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorWhiteSmoke"
+        android:ems="10"
+        android:fontFamily="@font/syncopate"
+        android:hint="@string/enterName"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/colorRed"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorBlack"
+        android:fontFamily="@font/syncopate"
+        android:onClick="joinGame"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="@string/joinLobby"
+        android:textColor="@color/colorWhiteSmoke"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/editGameCode"
+        app:layout_constraintStart_toStartOf="@+id/editGameCode"
+        app:layout_constraintTop_toBottomOf="@+id/editGameCode" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/lastAssassinLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/syncopate"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhiteSmoke"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/editGameCode"
+        app:layout_constraintStart_toStartOf="@+id/editGameCode"
+        app:layout_constraintTop_toBottomOf="@+id/editGameCode" />
+</androidx.constraintlayout.widget.ConstraintLayout>
